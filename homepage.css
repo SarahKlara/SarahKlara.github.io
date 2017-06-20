@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+    font-family: "Andale Mono";
+}
+body {
+    background-color: white;
+    
+}
+
+.links {
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    z-index: 10;
+    text-align: center;
+    background-color: RGBA(255, 255, 255, 0.7);
+    border-style: double;
+    border-color: #1599a9; 
+    border-width: 4px;
+
+}
+
+.NAV {
+    display: inline-block;
+    font-family: "Andale Mono";
+    text-align: center;
+    color: #072031;
+    
+    
+    font-size: 15px;
+    padding: 17px;
+}
+
+.Sites {
+    text-align: center;
+    padding-top: 70px;
+    position: relative;
+    height: 100vh;
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+img {
+    border-radius: 30px;
+    border-style: double;
+    border-color: #1599a9;
+    border-width: 4px;
+}
+
+.ISGdS {
+    padding: 30px;
+    margin: 30px;
+    width: 700px;
+
+}
+
+.BOX {
+    height: 424px;
+    width: 424px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.B1,.B2,.B3,.B4 {
+    height: 200px;
+    width: 200px; 
+    float: left;
+    margin-top: 12px;
+    margin-left: 12px;
+    border-style: double;
+    border-color: #1599a9;
+    border-width: 4px;
+    line-height: 200px;
+    
+}
+
+.B1:hover {
+    background-image: url(MainPage/GIF-Illus.gif);
+    color: RGBA(255, 255, 255, 0.7);
+    
+}
+
+.B2:hover {
+    background-image: url(MainPage/GIF-Show.gif);
+    color: RGBA(255, 255, 255, 0.7);
+    
+}
+
+.B3:hover {
+    background-image: url(MainPage/GIF-Croq.gif);
+    color: RGBA(255, 255, 255, 0.7);
+}
+
+.B4:hover {
+    background-image: url(MainPage/GIF-Sket.gif);
+    color: RGBA(255, 255, 255, 0.7);
+}
+
+.Contact {
+    margin-top: 400px;
+    text-align: center;
+}
+.MediaIcons {
+    position: relative;
+    text-align: center;
+}
+
+.LOGO{
+    border-style: none;
+}
